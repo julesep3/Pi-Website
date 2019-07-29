@@ -1,0 +1,26 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Home {
+    background-image: url("/Images/DanielNijlandKitchen.jpg");
+    background-attachment: scroll;
+}
+
+.container {
+    display: flex; /* or inline-flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: row || wrap; */
+    justify-content: space-around;
+    align-items: baseline;
+}
+.item {
+    /* order: <integer>;  default is 0 */
+    /* flex-grow: <number>; default is 0 */
+    /* flex-shrink: <number>; default is 1 */
+}
