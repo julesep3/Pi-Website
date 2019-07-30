@@ -4,11 +4,27 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font: Helvetica;
 }
 
 #Home {
     background-image: url("/Images/DanielNijlandKitchen.jpg");
     background-attachment: scroll;
+    z-index: -1;
+}
+#titlebar {
+    height: 100%;
+    color: rgba(217, 214, 228, 0.781);
+    position: fixed;
+    align-items: center;
+    font: Helvetica;
+    font-size: 130px;
+    top: 75%;
+    margin-left: 0.5em;
+}
+
+#Menu {
+    background-image: url("/Images/Menu.jpg");
 }
 
 .container {
@@ -24,3 +40,4 @@ body, html {
     /* flex-grow: <number>; default is 0 */
     /* flex-shrink: <number>; default is 1 */
 }
+
