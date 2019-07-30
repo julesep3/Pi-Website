@@ -27,27 +27,29 @@ body, html {
 #Home {
     background-image: url("/Images/DanielNijlandKitchen.jpg");
     background-attachment: scroll;
+    background-position: bottom;
 }
 #titlebar {
     height: 100%;
-    color: rgba(217, 214, 228, 0.781);
-    position: fixed;
+    color: rgba(217, 214, 228, 0.808);
+    position: absolute;
     align-items: center;
     font: Helvetica;
-    font-size: 130px;
-    top: 75%;
-    margin-left: 0.5em;
+    font-size: 120px;
+    top: 72%;
+    left: 7%;
 }
 /* menu.html page */
 #Menu {
-    background-image: url("/Images/Menu1.jpg");
-    height: 100%;
-    width: 100%;
+    background-image: url("/Images/Menu.jpg");
+    background-size: contain;
+    background-attachment: scroll;
+    background-color: black;
 
 }
 /* about.html page */
 #About {
     background-image: url("/Images/JordanProfile2.jpg");
-    background-size: 100%;
+    background-size: contain;
     background-color: black;
 }
