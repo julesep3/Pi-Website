@@ -52,4 +52,11 @@ body, html {
     background-image: url("/Images/JordanProfile2.jpg");
     background-size: contain;
     background-color: black;
+    right: 15%;
+}
+/* contact.html page */
+#Contact {
+    background-image: url("/Images/bahram-bayat-5t4D2h3lZ74-unsplash.jpg");
+    background-size: contain;
+    background-color: black;
 }
