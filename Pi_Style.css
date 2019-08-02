@@ -49,10 +49,17 @@ body, html {
 }
 /* about.html page */
 #About {
-    background-image: url("/Images/JordanProfile2.jpg");
-    background-size: contain;
     background-color: black;
-    right: 15%;
+}
+#Profile {
+    width: auto;
+    height: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: 40%;
+
+    opacity: 0.9;
+
 }
 /* contact.html page */
 #Contact {
