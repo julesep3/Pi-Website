@@ -21,6 +21,9 @@ body, html {
     /* flex-grow: <number>; default is 0 */
     /* flex-shrink: <number>; default is 1 */
 }
+.navbar {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
 
 
 /* index.html page */
