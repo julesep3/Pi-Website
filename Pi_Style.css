@@ -6,6 +6,9 @@ body, html {
     background-size: cover;
     font: Helvetica;
 }
+a:hover {
+    color: white;
+}
 
 /* classes */
 .container {
@@ -31,6 +34,7 @@ body, html {
 .nav-item {
     margin: 0 10px;
 }
+
 
 
 /* index.html page */
