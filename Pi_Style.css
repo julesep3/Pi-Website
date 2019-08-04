@@ -9,6 +9,11 @@ body, html {
 a:hover {
     color: white;
 }
+form {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
 
 /* classes */
 .container {

@@ -41,6 +41,68 @@
             </span>
         </div>
     </nav>
+    <form>
+        <h1>Custom Pizza Repo Depot</h1>
+        <span>
+            <h5>Order for:</h5>
+            <select name="service" id="service">
+                <option value="delivery">Delivery</option>
+                <option value="pickup">Pick-Up</option>
+            </select>
+        </span>
+        <br><br>
+        <span>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+            <label for="number">Phone Number:</label>
+            <input type="number" name="number" id="number">
+        </span>
+        <span>
+            <h2>Crust</h2>
+            <input id="thin" type="radio" name="crust" value="thin">
+            <label for="thin">Thin</label>
+            <input id="ny" type="radio" name="crust" value="ny">
+            <label for="ny">New York Style</label>
+            <input id="ht" type="radio" name="crust" value="ht">
+            <label for="ht">Hand-Tossed</label>
+        </span>
+        <br><br>
+        <div>
+            <h2>Choose Your Toppings</h2>
+            <h6>(We suggest a maximum of 4 toppings)</h6>
+            <span>
+                <h5>Proteins</h5>
+                <input type="checkbox" name="topping" id="chorizo" value="chorizo">
+                <label for="chorizo">Chorizo</label>
+                <input type="checkbox" name="topping" id="pepperoni" value="pepperoni">
+                <label for="pepperoni">Pepperoni</label>
+                <input type="checkbox" name="topping" id="pfsausage" value="pfsausage">
+                <label for="pfsausage">Pork Fennel Sausage</label>
+            </span>
+            <br>
+            <span>
+                <h5>Veggies</h5>
+                <input type="checkbox" name="topping" id="bOlive" value="black olive">
+                <label for="bOlive">Black Olive</label>
+                <input type="checkbox" name="topping" id="gOlive" value="green olive">
+                <label for="gOlive">Green Olive</label>
+                <input type="checkbox" name="topping" id="sTom" value="sun dried tomatoes">
+                <label for="sTom">Sun-Dried Tomatoes</label>
+            </span>
+            <br>
+            <span>
+                <h5>Cheese</h5>
+                <input type="checkbox" name="topping" id="moz" value="mozzarella">
+                <label for="moz">Mozzarella</label>
+                <input type="checkbox" name="topping" id="ched" value="cheddar">
+                <label for="ched">Cheddar</label>
+                <input type="checkbox" name="topping" id="chevre" value="chevre">
+                <label for="chevre">Chevre (goat cheese)</label>
+            </span>
+            <br>
+        </div>
+
+    </form>
 
 
 
