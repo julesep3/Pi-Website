@@ -5,6 +5,9 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     font: Helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 a:hover {
     color: white;
@@ -50,14 +53,24 @@ form {
     top: 72%;
     left: 7%;
 }
+.zNeg {
+    z-index: -1;
+}
 
 
 
 /* index.html page */
 #Home {
+    /*
     background-image: url("/Images/DanielNijlandKitchen.jpg");
     background-attachment: scroll;
     background-position: bottom;
+    */
+}
+.kitchenImage{
+    width: auto;
+    height: auto;
+    border: 1px solid black;
 }
 /*
 #titlebar {
