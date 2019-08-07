@@ -47,13 +47,13 @@ form {
 
 /* index.html page */
 .home {
-    
     background-image: url("/Images/DanielNijlandKitchen1.jpg");
     background-color: aqua;
     height: 100%;
     width: auto;
     background-attachment: fixed;
-    background-position: bottom center;    
+    background-position: bottom center;
+    z-index: -1;    
 }
 .titlebar {
     height: 100%;
@@ -64,17 +64,18 @@ form {
     font-size: 90px;
     top: 72%;
     left: 7%;
+    z-index: 1;
 }
 .hours {
     background-color: aqua;
     font-size: 40px;
-    height 300px;
+    height 100px;
     width: 100%;
     background-attachment: scroll;
     margin: 15px 10px;
     padding: 15px 10px;
     box-sizing: border-box;
-
+    z-index: 3;
 }
 
 /*
